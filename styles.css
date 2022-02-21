@@ -8,3 +8,7 @@ body{
     flex-direction: column;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
