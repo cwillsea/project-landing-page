@@ -8,9 +8,14 @@ body{
     flex-direction: column;
 }
 
-ul {
+ul{
     margin: 0px;
     padding: 0px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header{
