@@ -27,6 +27,22 @@ a{
     background-color: #1F2937;
 }
 
+.top-container{
+    flex: 1;
+}
+
+.top-center-container{
+    flex: 1;
+}
+
+.bottom-center-container{
+    flex: 1;
+}
+
+.bottom-container{
+    flex: 1;
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
