@@ -17,7 +17,7 @@ ul{
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    text-align: center;
+    color: #E5E7EB
 }
 
 a{
@@ -35,6 +35,13 @@ a{
 
 .top-container{
     flex: 1;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+.hero-main{
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .top-center-container{
@@ -56,6 +63,9 @@ a{
 
 .right-links{
     display: flex;
-    gap: 15px
+    gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB
+
 }
 
