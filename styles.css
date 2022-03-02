@@ -33,6 +33,13 @@ a{
     align-items: center;
 }
 
+.right-links{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 .top-container{
     flex: 1;
     background-color: #1F2937;
@@ -51,8 +58,15 @@ a{
 }
 
 .top-right-content{
-    flex:1
+    flex:1;
+    background-color: #797a7c;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .top-center-container{
     flex: 1;
@@ -71,11 +85,5 @@ a{
     color: #F9FAF8;
 }
 
-.right-links{
-    display: flex;
-    gap: 15px;
-    font-size: 18px;
-    color: #E5E7EB
 
-}
 
