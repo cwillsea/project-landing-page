@@ -10,7 +10,7 @@ body{
     height: 150vh;
     justify-content: space-between;
     margin: 0;
-    padding: 0px
+    padding: 0px;
 }
 
 ul{
@@ -22,7 +22,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB
 }
 
 .header{
@@ -38,10 +38,20 @@ a{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
+    align-items: center;
 }
 .hero-main{
     font-size: 48px;
     font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.top-left-content{
+    flex:1;
+}
+
+.top-right-content{
+    flex:1
 }
 
 .top-center-container{
