@@ -1,5 +1,11 @@
 *{
     box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+html {
+    padding: 0px;
 }
 
 body{
@@ -8,6 +14,8 @@ body{
     flex-direction: column;
     height: 150vh;
     justify-content: space-between;
+    margin: 0;
+    padding: 0px
 }
 
 ul{
@@ -25,6 +33,8 @@ a{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    font-weight: bold;
+    align-items: center;
 }
 
 .top-container{
@@ -52,3 +62,4 @@ a{
     display: flex;
     gap: 15px
 }
+
