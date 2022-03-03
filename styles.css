@@ -84,10 +84,28 @@ a{
 
 .top-center-content {
     display: flex;
+    gap:52px
+}
+
+.box{
+    background: transparent;
+    border: 2px solid  #3882F6;
+    border-radius: 10px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    text-align: center;
 }
 
 .bottom-center-container{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottom-container{
