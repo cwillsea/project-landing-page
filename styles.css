@@ -63,6 +63,11 @@ a{
     color: #F9FAF8;
 }
 
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 .top-left-content{
     flex:1;
 }
@@ -127,8 +132,15 @@ a{
     padding-right: 50px;
 }
 
+.quote{
+    width: 1000px;
+}
+
 .author{
     align-self: end;
+    width: 700px;
+    font-weight: bold;
+    
 }
 
 .bottom-container{
@@ -171,7 +183,9 @@ a{
     background-color: #1F2937;
     height: 50px;
     color: #F9FAF8;
-    font-size: 12px;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
