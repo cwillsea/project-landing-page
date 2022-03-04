@@ -135,6 +135,16 @@ a{
     padding-right: 50px;
 }
 
+.sign-up-container{
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 25%;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer{
     display: flex;
     justify-content: center;
