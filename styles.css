@@ -128,8 +128,17 @@ a{
 
 .bottom-container{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
