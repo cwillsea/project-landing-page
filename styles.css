@@ -27,7 +27,7 @@ a{
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     font-weight: bold;
     align-items: center;
@@ -39,6 +39,7 @@ a{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    width: 880px
 }
 
 .right-links{
@@ -71,8 +72,10 @@ a{
 
 .top-left-content{
     display: flex;
-    gap:10px
-
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    max-width: 880px;
 }
 
 .top-right-content{
